@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <Spline
               className="object-cover object-center rounded"
-              scene="https://prod.spline.design/pn11WI2hFYglHhUZ/scene.splinecode"
+              scene="https://prod.spline.design/xY5K69EWdqqPwTmH/scene.splinecode"
             />
           </div>
           <form
