@@ -36,14 +36,14 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="lg:w-1/2 lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:w-1/2 md:w-1/2 w-5/6">
             <Spline
               className="object-cover object-center rounded"
               scene="https://prod.spline.design/djnrN4gAxXFcYXGp/scene.splinecode"
             />
           </div>
         </div>
-      </section>
+      </section> 
     </>
   );
 };
