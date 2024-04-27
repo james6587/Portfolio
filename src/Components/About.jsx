@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <section id="about">
-        <div className="container mx-auto flex px-10 md:py-20 py-4 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex lg:px-40 px-10 md:py-20 py-4 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Hi, I'm James.
@@ -34,7 +34,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="lg:w-1/2 md:w-1/2 w-full h-80">
+          <div className="lg:w-2/5 md:w-1/2 w-full h-96">
             <Spline
               className="object-cover object-center rounded"
               scene="https://prod.spline.design/djnrN4gAxXFcYXGp/scene.splinecode"
