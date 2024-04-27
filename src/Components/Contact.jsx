@@ -1,6 +1,37 @@
-import React from "react";
+import React, { useRef } from "react";
 import Spline from "@splinetool/react-spline";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_dw8wb8j", "template_e9mu41n", form.current, {
+        publicKey: "ADtMN2vSK5lCd4pdY",
+      })
+      .then(
+        () => {
+          {
+            {
+              alert("email sent");
+              form.current.reset();
+              /*console.log("SUCCESS!");*/
+            }
+          }
+        },
+        (error) => {
+          {
+            {
+              /*console.log("FAILED...", error.text);*/
+            }
+          }
+        }
+      );
+  };
+
   return (
     <>
       <section id="contact" className="relative">
@@ -14,6 +45,8 @@ const Contact = () => {
           <form
             name="contact"
             className="lg:w-1/2 md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+            ref={form}
+            onSubmit={sendEmail}
           >
             <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
               Contact me!
@@ -26,7 +59,7 @@ const Contact = () => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="user_name"
                 className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -40,7 +73,7 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="user_email"
                 className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
