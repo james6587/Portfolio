@@ -36,7 +36,7 @@ const Contact = () => {
     <>
       <section id="contact" className="relative">
         <div className="container mx-auto flex px-10 py-10 sm:pt-0 lg:flex-row lg:px-40 flex-col items-center">
-          <div className="lg:w-1/2 md:w-1/2 w-full h-96">
+          <div className="lg:w-1/2 md:w-1/2 w-full h-96 sm:block hidden">
             <Spline
               className="object-cover object-center rounded pb-4"
               scene="https://prod.spline.design/xY5K69EWdqqPwTmH/scene.splinecode"

@@ -34,7 +34,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="lg:w-2/5 md:w-1/2 w-full h-96">
+          <div className="lg:w-2/5 md:w-1/2 w-full h-96 sm:block hidden">
             <Spline
               className="object-cover object-center rounded"
               scene="https://prod.spline.design/djnrN4gAxXFcYXGp/scene.splinecode"
