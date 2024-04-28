@@ -1,19 +1,21 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Quiz App",
+    subtitle: "ReactJs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "",
-    link: "/",
+      "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
+    image:
+      "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
+    link: "https://main--quizappjv.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Quiz App",
+    subtitle: "ReactJs",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "",
-    link: "/",
+      "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
+    image:
+      "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
+    link: "https://main--quizappjv.netlify.app/",
   },
 ];
 
