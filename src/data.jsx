@@ -63,7 +63,7 @@ export const skills = [
     skill: "Figma",
   },
   {
-    image: "/assets/icons/ui_ux.png",
-    skill: "UI/UX desing",
+    image: "/assets/icons/tailwind.png",
+    skill: "tailwindcss",
   },
 ];
