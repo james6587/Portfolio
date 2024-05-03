@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "ReactJs",
     description:
       "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image: "/src/assets/project_img/QuizAppImg.jpeg",
+    image: "/assets/project_img/QuizAppImg.jpeg",
     link: "https://main--quizappjv.netlify.app/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "ReactJs",
     description:
       "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image: "/src/assets/project_img/QuizAppImg.jpeg",
+    image: "/assets/project_img/QuizAppImg.jpeg",
     link: "https://main--quizappjv.netlify.app/",
   },
 ];
@@ -31,7 +31,7 @@ export const skills = [
     skill: "CSS",
   },
   {
-    image: "/assets/icons/react.svg",
+    image: "/assets/icons/react.png",
     skill: "React.Js",
   },
   {
