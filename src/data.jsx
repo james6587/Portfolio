@@ -51,7 +51,7 @@ export const skills = [
     skill: "GIT version controller",
   },
   {
-    image: "/src/assets/icons/blender.png",
+    image: "/src/assets/blender.png",
     skill: "Blender",
   },
   {
