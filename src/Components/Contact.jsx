@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="container mx-auto flex px-10 py-10 sm:pt-0 lg:flex-row lg:px-40 flex-col items-center">
           <div className="lg:w-1/2 md:w-1/2 w-full h-96 sm:block hidden">
             <Spline
-              className="object-cover object-center rounded pb-4"
+              className="object-cover object-center rounded pb-4 cursor-grab"
               scene="https://prod.spline.design/xY5K69EWdqqPwTmH/scene.splinecode"
             />
           </div>
@@ -92,7 +92,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 duration-700 ease-in-out rounded text-lg"
             >
               Send
             </button>

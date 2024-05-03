@@ -20,14 +20,14 @@ const About = () => {
             <div className="flex justify-center">
               <a
                 href="https://www.linkedin.com/in/jamesvargass/"
-                className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 rounded text-lg"
+                className="inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-blue-500 duration-700 ease-in-out rounded text-lg"
                 target="_blank"
               >
                 LinkedIn
               </a>
               <a
                 href="https://github.com/james6587"
-                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 duration-700 ease-in-out hover:text-white rounded text-lg"
                 target="_blank"
               >
                 GitHub
@@ -36,7 +36,7 @@ const About = () => {
           </div>
           <div className="lg:w-2/5 md:w-1/2 w-full h-96 sm:block hidden">
             <Spline
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded cursor-grab"
               scene="https://prod.spline.design/djnrN4gAxXFcYXGp/scene.splinecode"
             />
           </div>
