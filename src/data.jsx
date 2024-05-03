@@ -31,7 +31,7 @@ export const skills = [
     skill: "CSS",
   },
   {
-    image: "/src/assets/icons/react.png",
+    image: "/src/assets/icons/react.svg",
     skill: "React.Js",
   },
   {

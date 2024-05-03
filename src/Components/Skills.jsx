@@ -18,12 +18,13 @@ const Skills = () => {
             {skills.map((skill) => (
               <div key={skill.skill} className="p-2 w-full">
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                  {/* <img
+                  {/* <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                   */}
+                  <img
                     src={skill.image}
                     className="text-green-400 w-6 h-6 flex-shrink-0 mr-4"
                     alt="icon"
-                  /> */}
-                  <CheckBadgeIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                  />
                   <span className="title-font font-medium text-white">
                     {skill.skill}
                   </span>
