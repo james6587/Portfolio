@@ -4,8 +4,7 @@ export const projects = [
     subtitle: "ReactJs",
     description:
       "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image:
-      "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
+    image: "../src/assets/QuizAppImg.jpeg",
     link: "https://main--quizappjv.netlify.app/",
   },
   {
@@ -13,8 +12,7 @@ export const projects = [
     subtitle: "ReactJs",
     description:
       "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image:
-      "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
+    image: "../src/assets/QuizAppImg.jpeg",
     link: "https://main--quizappjv.netlify.app/",
   },
 ];
