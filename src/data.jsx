@@ -19,51 +19,51 @@ export const projects = [
 
 export const skills = [
   {
-    image: "/src/assets/icons/js.png",
+    image: "/assets/icons/js.png",
     skill: "JavaScript",
   },
   {
-    image: "/src/assets/icons/html.png",
+    image: "/assets/icons/html.png",
     skill: "HTML 5",
   },
   {
-    image: "/src/assets/icons/css.png",
+    image: "/assets/icons/css.png",
     skill: "CSS",
   },
   {
-    image: "/src/assets/icons/react.svg",
+    image: "/assets/icons/react.svg",
     skill: "React.Js",
   },
   {
-    image: "/src/assets/icons/sql.png",
+    image: "/assets/icons/sql.png",
     skill: "SQL",
   },
   {
-    image: "/src/assets/icons/wordpress.png",
+    image: "/assets/icons/wordpress.png",
     skill: "Wordpress",
   },
   {
-    image: "/src/assets/icons/sass.png",
+    image: "/assets/icons/sass.png",
     skill: "Sass",
   },
   {
-    image: "/src/assets/icons/github.png",
+    image: "/assets/icons/github.png",
     skill: "GIT version controller",
   },
   {
-    image: "/src/assets/icons/blender.png",
+    image: "/assets/icons/blender.png",
     skill: "Blender",
   },
   {
-    image: "/src/assets/icons/blender.png",
+    image: "/assets/icons/blender.png",
     skill: "Spline",
   },
   {
-    image: "/src/assets/icons/figma.png",
+    image: "/assets/icons/figma.png",
     skill: "Figma",
   },
   {
-    image: "/src/assets/icons/ui_ux.png",
+    image: "/assets/icons/ui_ux.png",
     skill: "UI/UX desing",
   },
 ];
