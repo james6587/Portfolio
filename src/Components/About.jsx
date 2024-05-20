@@ -48,7 +48,7 @@ const About = () => {
           <div className="lg:w-2/5 md:w-1/2 w-full h-96 sm:block hidden">
             <Spline
               className="object-cover object-center rounded cursor-grab"
-              scene="https://prod.spline.design/djnrN4gAxXFcYXGp/scene.splinecode"
+              scene="https://prod.spline.design/RrD-lUzz4nfap6CP/scene.splinecode"
             />
           </div>
         </div>
