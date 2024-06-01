@@ -1,11 +1,12 @@
 export const projects = [
   {
-    title: "Quiz App",
+    title: "Movies App",
     subtitle: "ReactJs",
     description:
-      "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image: "/assets/project_img/QuizAppImg.jpeg",
-    link: "https://main--quizappjv.netlify.app/",
+      "A movie search engine  made with reactJS, applying Hooks like: useRef, useState, useMemo, useEffect and useCallback.",
+    image: "/assets/project_img/MovieAppimg.jpeg",
+    preview: "https://appmoviesjames.netlify.app/",
+    code: "https://github.com/james6587/AppMovies",
     tags: [
       {
         tagicon: "/assets/icons/react.png",
@@ -13,11 +14,11 @@ export const projects = [
       },
       {
         tagicon: "/assets/icons/js.png",
-        tagname: "javescript",
+        tagname: "JavaScript",
       },
       {
-        tagicon: "/assets/icons/tailwind.png",
-        tagname: "tailwindcss",
+        tagicon: "/assets/icons/css.png",
+        tagname: "CSS",
       },
     ],
   },
@@ -25,9 +26,10 @@ export const projects = [
     title: "Quiz App",
     subtitle: "ReactJs",
     description:
-      "A quiz application made with reactJS, applying Hooks like: useRef, useState, useEffect and useCallback.",
+      "A quiz application made with reactJS and styled with tailwind , applying Hooks like: useRef, useState, useEffect and useCallback.",
     image: "/assets/project_img/QuizAppImg.jpeg",
-    link: "https://main--quizappjv.netlify.app/",
+    preview: "https://quizappjv.netlify.app/",
+    code: "https://github.com/james6587/QuizApp",
     tags: [
       {
         tagicon: "/assets/icons/react.png",
@@ -35,7 +37,7 @@ export const projects = [
       },
       {
         tagicon: "/assets/icons/js.png",
-        tagname: "javescript",
+        tagname: "JavaScript",
       },
       {
         tagicon: "/assets/icons/tailwind.png",
