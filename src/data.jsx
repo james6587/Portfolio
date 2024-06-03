@@ -1,11 +1,34 @@
 export const projects = [
   {
+    title: "Guitar Shop",
+    subtitle: "ReactJs",
+    description:
+      "Guitar store made with reactJS, using TypeScript, adding functions like: updating and modifying items in the cart and saving the cart in the local-storage, applying Hooks like: useMemo, useState, useEffect and custom hooks.",
+    image: "/assets/project_img/GuitarShopimg.jpeg",
+    preview: "https://guitarshopjv.netlify.app",
+    code: "https://github.com/james6587/GuitarShopTs",
+    tags: [
+      {
+        tagicon: "/assets/icons/react.png",
+        tagname: "ReactJs",
+      },
+      {
+        tagicon: "/assets/icons/typescript.png",
+        tagname: "TypeScript",
+      },
+      {
+        tagicon: "/assets/icons/bootstrap.png",
+        tagname: "Bootstrap",
+      },
+    ],
+  },
+  {
     title: "Movies App",
     subtitle: "ReactJs",
     description:
-      "A movie search engine  made with reactJS, applying Hooks like: useRef, useState, useMemo, useEffect and useCallback.",
+      "A movie browser made with reactJS, using OMDb API, applying Hooks like: useRef, useState, useMemo, useEffect, useCallback and custom hooks.",
     image: "/assets/project_img/MovieAppimg.jpeg",
-    preview: "https://appmoviesjames.netlify.app/",
+    preview: "https://appmoviesjv.netlify.app",
     code: "https://github.com/james6587/AppMovies",
     tags: [
       {
@@ -28,7 +51,7 @@ export const projects = [
     description:
       "A quiz application made with reactJS and styled with tailwind , applying Hooks like: useRef, useState, useEffect and useCallback.",
     image: "/assets/project_img/QuizAppImg.jpeg",
-    preview: "https://quizappjv.netlify.app/",
+    preview: "https://quizappjv.netlify.app",
     code: "https://github.com/james6587/QuizApp",
     tags: [
       {
@@ -53,6 +76,14 @@ export const skills = [
     skill: "JavaScript",
   },
   {
+    image: "/assets/icons/typescript.png",
+    skill: "TypeScript",
+  },
+  {
+    image: "/assets/icons/react.png",
+    skill: "React.Js",
+  },
+  {
     image: "/assets/icons/html.png",
     skill: "HTML 5",
   },
@@ -61,28 +92,40 @@ export const skills = [
     skill: "CSS",
   },
   {
-    image: "/assets/icons/react.png",
-    skill: "React.Js",
+    image: "/assets/icons/tailwind.png",
+    skill: "tailwindcss",
   },
   {
-    image: "/assets/icons/sql.png",
-    skill: "SQL",
+    image: "/assets/icons/bootstrap.png",
+    skill: "Bootstrap",
   },
   {
     image: "/assets/icons/wordpress.png",
     skill: "Wordpress",
   },
   {
-    image: "/assets/icons/sass.png",
-    skill: "Sass",
+    image: "/assets/icons/aws.png",
+    skill: "AWS",
+  },
+  {
+    image: "/assets/icons/nodejs.png",
+    skill: "Node.js",
+  },
+  {
+    image: "/assets/icons/mongodb.png",
+    skill: "MongoDB",
+  },
+  {
+    image: "/assets/icons/firebase.png",
+    skill: "Firebase",
+  },
+  {
+    image: "/assets/icons/sql.png",
+    skill: "SQL",
   },
   {
     image: "/assets/icons/github.png",
     skill: "GIT version controller",
-  },
-  {
-    image: "/assets/icons/blender.png",
-    skill: "Blender",
   },
   {
     image: "/assets/icons/blender.png",
@@ -91,9 +134,5 @@ export const skills = [
   {
     image: "/assets/icons/figma.png",
     skill: "Figma",
-  },
-  {
-    image: "/assets/icons/tailwind.png",
-    skill: "tailwindcss",
   },
 ];
