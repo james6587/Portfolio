@@ -1,5 +1,28 @@
 export const projects = [
   {
+    title: "Crypto App",
+    subtitle: "ReactJs",
+    description:
+      "Cryptocurrency application made with reactJS, using CoinGecko API, using Zod and Zustand, applying Hooks like: useState, useEffect and custom hooks.",
+    image: "/assets/project_img/CryptoApp.jpeg",
+    preview: "https://cryptoapptsjv.netlify.app",
+    code: "https://github.com/james6587/CryptoAppTs",
+    tags: [
+      {
+        tagicon: "/assets/icons/react.png",
+        tagname: "ReactJs",
+      },
+      {
+        tagicon: "/assets/icons/typescript.png",
+        tagname: "TypeScript",
+      },
+      {
+        tagicon: "/assets/icons/css.png",
+        tagname: "CSS",
+      },
+    ],
+  },
+  {
     title: "Weather App",
     subtitle: "ReactJs",
     description:
@@ -65,29 +88,6 @@ export const projects = [
       {
         tagicon: "/assets/icons/css.png",
         tagname: "CSS",
-      },
-    ],
-  },
-  {
-    title: "Quiz App",
-    subtitle: "ReactJs",
-    description:
-      "A quiz application made with reactJS and styled with tailwind , applying Hooks like: useRef, useState, useEffect and useCallback.",
-    image: "/assets/project_img/QuizAppImg.jpeg",
-    preview: "https://quizappjv.netlify.app",
-    code: "https://github.com/james6587/QuizApp",
-    tags: [
-      {
-        tagicon: "/assets/icons/react.png",
-        tagname: "ReactJs",
-      },
-      {
-        tagicon: "/assets/icons/js.png",
-        tagname: "JavaScript",
-      },
-      {
-        tagicon: "/assets/icons/tailwind.png",
-        tagname: "tailwindcss",
       },
     ],
   },
