@@ -1,5 +1,28 @@
 export const projects = [
   {
+    title: "Weather App",
+    subtitle: "ReactJs",
+    description:
+      "Weather application made with reactJS, using OpenWeather API, applying Hooks like: useState and custom hooks.",
+    image: "/assets/project_img/WeatherApp.jpeg",
+    preview: "https://weatherapptsjs.netlify.app",
+    code: "https://github.com/james6587/WeatherAppTs",
+    tags: [
+      {
+        tagicon: "/assets/icons/react.png",
+        tagname: "ReactJs",
+      },
+      {
+        tagicon: "/assets/icons/typescript.png",
+        tagname: "TypeScript",
+      },
+      {
+        tagicon: "/assets/icons/css.png",
+        tagname: "CSS",
+      },
+    ],
+  },
+  {
     title: "Guitar Shop",
     subtitle: "ReactJs",
     description:

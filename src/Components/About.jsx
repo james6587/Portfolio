@@ -25,7 +25,7 @@ const About = () => {
               I'm a Frontend developer, I work with programming languages like:
               Javascript, TypeScript, Python. Currently I have 2+ years of
               experience, I define myself as a responsible and self-taught
-              person, I like to listen to music, read documentation about
+              person, I like to listen to music and read documentation about
               different technologies on the market.
             </p>
             <div className="flex justify-center">
